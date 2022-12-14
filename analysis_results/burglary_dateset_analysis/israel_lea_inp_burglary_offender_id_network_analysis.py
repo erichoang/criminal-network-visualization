@@ -291,7 +291,7 @@ def run_experiment_top_k_central_node(graph_file_path, nx_undirected_graph, scor
 
     df = pd.DataFrame(pd_data, columns=['#_central_nodes', '#_removed_edges',
                                         'acc_top_1(%)', 'acc_top_3(%)', 'acc_top_5(%)'])
-    df_file_path = 'analyzer/examples/' + 'df_' + graph_file_path.split('.')[0].split('/')[2] + \
+    df_file_path = 'analysis_results/burglary_dateset_analysis/' + 'df_' + graph_file_path.split('.')[0].split('/')[2] + \
                     '_undirected_betweenness_centrality_scores' + '_v' + run_version + '.csv'
     df.to_csv(df_file_path)
     print('Dumped:', df_file_path)
@@ -313,7 +313,7 @@ def run_experiment_on_removing_random_edges(graph_file_path, nx_undirected_graph
     pd_data.append(row)
 
     df = pd.DataFrame(pd_data, columns=['#_removed_edges', 'acc_top_1(%)', 'acc_top_3(%)', 'acc_top_5(%)'])
-    df_file_path = 'analyzer/examples/' + 'df_' + graph_file_path.split('.')[0].split('/')[2] + \
+    df_file_path = 'analysis_results/burglary_dateset_analysis/' + 'df_' + graph_file_path.split('.')[0].split('/')[2] + \
                     '_removed_edges_' + str(int(percent_removed_edges*100)) + '%_v' + run_version + '.csv'
     df.to_csv(df_file_path)
     print('Dumped:', df_file_path)
@@ -387,7 +387,7 @@ def run_experiment_on_ground_truth_graph(graph_file_path, nx_undirected_graph, n
     pd_data.append(row)
 
     df = pd.DataFrame(pd_data, columns=['#_removed_edges', 'acc_top_1(%)', 'acc_top_3(%)', 'acc_top_5(%)'])
-    df_file_path = 'analyzer/examples/' + 'df_' + graph_file_path.split('.')[0].split('/')[2] + \
+    df_file_path = 'analysis_results/burglary_dateset_analysis/' + 'df_' + graph_file_path.split('.')[0].split('/')[2] + \
                     '_and_ground_truth_graph_' + 'v' + run_version + '.csv'
     df.to_csv(df_file_path)
     print('Dumped:', df_file_path)
@@ -416,13 +416,13 @@ if __name__ == "__main__":
 
     print(nx.info(graph))
     print(nx.info(undirected_graph))
-    scores_centrality_file_path = 'analyzer/examples/' + graph_file_path.split('.')[0].split('/')[2] + \
+    scores_centrality_file_path = 'analysis_results/burglary_dateset_analysis/' + graph_file_path.split('.')[0].split('/')[2] + \
                        '_undirected_betweenness_centrality_scores' + '.pickle'
-    # dump_centrality_scores(undirected_graph, scores_centrality_file_path)
+    dump_centrality_scores(undirected_graph, scores_centrality_file_path)
 
-    # scores = nx.betweenness_centrality(G, weight='weight')
-    # with open('analyzer/examples/betweenness_centrality_scores_israel_lea_inp_burglary_offender_id_network.pickle', 'wb') as fp:
-    #     pickle.dump(scores, fp)
+    scores = nx.betweenness_centrality(G, weight='weight')
+    with open('analysis_results/burglary_dateset_analysis/betweenness_centrality_scores_israel_lea_inp_burglary_offender_id_network.pickle', 'wb') as fp:
+        pickle.dump(scores, fp)
 
     scores_centrality = pickle.load(open(scores_centrality_file_path, 'rb'))
 
