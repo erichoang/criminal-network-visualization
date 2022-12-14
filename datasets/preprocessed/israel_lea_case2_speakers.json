@@ -1,0 +1,303 @@
+#Israel LEA Case 2 - Speakers and SMS Senders Network
+{"type": "node", "id": "SID_17", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1", "38"]}}
+{"type": "node", "id": "SID_0", "properties": {"type": "speaker", "caller_numbers": ["49", "38", "9", "27", "43", "71", "58", "51", "68", "59", "70", "20", "26", "56", "1", "72", "42", "57", "63", "37", "19", "31", "32", "60", "46", "62", "65", "50", "45"], "callee_numbers": ["6", "64", "NA_callee_number_#3", "82", "38", "9", "27", "89", "24", "80", "17", "15", "93", "40", "43", "58", "88", "59", "34", "70", "23", "69", "83", "26", "10", "56", "1", "7", "84", "72", "42", "57", "63", "75", "NA_callee_number_#2", "18", "86", "22", "37", "2", "16", "55", "90", "67", "19", "31", "32", "60", "92", "79", "29", "85", "62", "65", "39", "33", "91", "5", "28", "77", "87"]}}
+{"type": "node", "id": "SID_11", "properties": {"type": "speaker", "caller_numbers": ["1", "31", "42"], "callee_numbers": ["1", "42"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_1", "properties": {"type": "SMS_sender", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_38", "properties": {"type": "SMS_sender", "caller_numbers": ["38"], "callee_numbers": ["38"]}}
+{"type": "node", "id": "SID_18", "properties": {"type": "speaker", "caller_numbers": ["1", "47"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_35", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_20", "properties": {"type": "SMS_sender", "callee_numbers": ["20"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_58", "properties": {"type": "SMS_sender", "caller_numbers": ["58"], "callee_numbers": ["58"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_42", "properties": {"type": "SMS_sender", "caller_numbers": ["42"], "callee_numbers": ["42"]}}
+{"type": "node", "id": "SID_26", "properties": {"type": "speaker", "caller_numbers": ["1", "56"], "callee_numbers": ["1", "28"]}}
+{"type": "node", "id": "SID_16", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1", "28"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_63", "properties": {"type": "SMS_sender", "callee_numbers": ["63"]}}
+{"type": "node", "id": "SID_13", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_39", "properties": {"type": "SMS_sender", "caller_numbers": ["39"]}}
+{"type": "node", "id": "SID_25", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_22", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_88", "properties": {"type": "SMS_sender", "callee_numbers": ["88"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_72", "properties": {"type": "SMS_sender", "caller_numbers": ["72"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_23", "properties": {"type": "SMS_sender", "callee_numbers": ["23"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_81", "properties": {"type": "SMS_sender", "callee_numbers": ["81"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_94", "properties": {"type": "SMS_sender", "callee_numbers": ["94"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_56", "properties": {"type": "SMS_sender", "caller_numbers": ["56"], "callee_numbers": ["56"]}}
+{"type": "node", "id": "SID_34", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_1", "properties": {"type": "speaker", "caller_numbers": ["73", "38", "27", "66", "1"], "callee_numbers": ["63", "18", "38", "27", "8", "56", "1", "41", "42"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_31", "properties": {"type": "SMS_sender", "caller_numbers": ["31"], "callee_numbers": ["31"]}}
+{"type": "node", "id": "SID_37", "properties": {"type": "speaker", "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_7", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_67", "properties": {"type": "SMS_sender", "caller_numbers": ["67"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_54", "properties": {"type": "SMS_sender", "caller_numbers": ["54"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_62", "properties": {"type": "SMS_sender", "caller_numbers": ["62"], "callee_numbers": ["62"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_35", "properties": {"type": "SMS_sender", "caller_numbers": ["35"], "callee_numbers": ["35"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_61", "properties": {"type": "SMS_sender", "caller_numbers": ["61"], "callee_numbers": ["61"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_caller_number", "properties": {"type": "SMS_sender", "caller_numbers": ["NA_caller_number"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_9", "properties": {"type": "SMS_sender", "caller_numbers": ["9"]}}
+{"type": "node", "id": "SID_15", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_64", "properties": {"type": "SMS_sender", "caller_numbers": ["64"], "callee_numbers": ["64"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_48", "properties": {"type": "SMS_sender", "caller_numbers": ["48"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_callee_number_#0", "properties": {"type": "SMS_sender", "callee_numbers": ["NA_callee_number_#0"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_27", "properties": {"type": "SMS_sender", "caller_numbers": ["27"], "callee_numbers": ["27"]}}
+{"type": "node", "id": "SID_36", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_20", "properties": {"type": "speaker", "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_50", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_10", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_31", "properties": {"type": "speaker", "callee_numbers": ["41", "56"]}}
+{"type": "node", "id": "SID_44", "properties": {"type": "speaker", "callee_numbers": ["41"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_41", "properties": {"type": "SMS_sender", "callee_numbers": ["41"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_76", "properties": {"type": "SMS_sender", "callee_numbers": ["76"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_6", "properties": {"type": "SMS_sender", "callee_numbers": ["6"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_43", "properties": {"type": "SMS_sender", "caller_numbers": ["43"]}}
+{"type": "node", "id": "SID_32", "properties": {"type": "speaker", "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_9", "properties": {"type": "speaker", "caller_numbers": ["1", "64"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_57", "properties": {"type": "SMS_sender", "caller_numbers": ["57"], "callee_numbers": ["57"]}}
+{"type": "node", "id": "SID_42", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_21", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_60", "properties": {"type": "SMS_sender", "caller_numbers": ["60"], "callee_numbers": ["60"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_59", "properties": {"type": "SMS_sender", "caller_numbers": ["59"], "callee_numbers": ["59"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_callee_number_#1", "properties": {"type": "SMS_sender", "callee_numbers": ["NA_callee_number_#1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_30", "properties": {"type": "SMS_sender", "callee_numbers": ["30"]}}
+{"type": "node", "id": "SID_8", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_14", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_3", "properties": {"type": "SMS_sender", "caller_numbers": ["3"], "callee_numbers": ["3"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_21", "properties": {"type": "SMS_sender", "caller_numbers": ["21"], "callee_numbers": ["21"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_44", "properties": {"type": "SMS_sender", "caller_numbers": ["44"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_74", "properties": {"type": "SMS_sender", "caller_numbers": ["74"]}}
+{"type": "node", "id": "SID_47", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_5", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_65", "properties": {"type": "SMS_sender", "callee_numbers": ["65"]}}
+{"type": "node", "id": "SID_12", "properties": {"type": "speaker", "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_33", "properties": {"type": "speaker", "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_38", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_14", "properties": {"type": "SMS_sender", "callee_numbers": ["14"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_36", "properties": {"type": "SMS_sender", "caller_numbers": ["36"], "callee_numbers": ["36"]}}
+{"type": "node", "id": "SID_28", "properties": {"type": "speaker", "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_15", "properties": {"type": "SMS_sender", "callee_numbers": ["15"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_8", "properties": {"type": "SMS_sender", "caller_numbers": ["8"]}}
+{"type": "node", "id": "SID_46", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1", "42"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_37", "properties": {"type": "SMS_sender", "caller_numbers": ["37"], "callee_numbers": ["37"]}}
+{"type": "node", "id": "SID_6", "properties": {"type": "speaker", "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_4", "properties": {"type": "SMS_sender", "callee_numbers": ["4"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_callee_number_#4", "properties": {"type": "SMS_sender", "callee_numbers": ["NA_callee_number_#4"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_callee_number_#5", "properties": {"type": "SMS_sender", "callee_numbers": ["NA_callee_number_#5"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_callee_number_#6", "properties": {"type": "SMS_sender", "callee_numbers": ["NA_callee_number_#6"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_callee_number_#7", "properties": {"type": "SMS_sender", "callee_numbers": ["NA_callee_number_#7"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_33", "properties": {"type": "SMS_sender", "caller_numbers": ["33"]}}
+{"type": "node", "id": "SID_29", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_callee_number_#8", "properties": {"type": "SMS_sender", "callee_numbers": ["NA_callee_number_#8"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_32", "properties": {"type": "SMS_sender", "caller_numbers": ["32"], "callee_numbers": ["32"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_69", "properties": {"type": "SMS_sender", "caller_numbers": ["69"], "callee_numbers": ["69"]}}
+{"type": "node", "id": "SID_48", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_operator", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_92", "properties": {"type": "SMS_sender", "callee_numbers": ["92"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_11", "properties": {"type": "SMS_sender", "callee_numbers": ["11"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_82", "properties": {"type": "SMS_sender", "callee_numbers": ["82"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_90", "properties": {"type": "SMS_sender", "callee_numbers": ["90"]}}
+{"type": "node", "id": "SID_40", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_91", "properties": {"type": "SMS_sender", "callee_numbers": ["91"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_16", "properties": {"type": "SMS_sender", "callee_numbers": ["16"]}}
+{"type": "node", "id": "SID_30", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_34", "properties": {"type": "SMS_sender", "callee_numbers": ["34"]}}
+{"type": "node", "id": "SID_3", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_4", "properties": {"type": "speaker", "caller_numbers": ["52"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_12", "properties": {"type": "SMS_sender", "callee_numbers": ["12"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_25", "properties": {"type": "SMS_sender", "callee_numbers": ["25"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_83", "properties": {"type": "SMS_sender", "callee_numbers": ["83"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_66", "properties": {"type": "SMS_sender", "caller_numbers": ["66"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_19", "properties": {"type": "SMS_sender", "caller_numbers": ["19"], "callee_numbers": ["19"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_0", "properties": {"type": "SMS_sender", "callee_numbers": ["0"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_18", "properties": {"type": "SMS_sender", "callee_numbers": ["18"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_callee_number_#9", "properties": {"type": "SMS_sender", "callee_numbers": ["NA_callee_number_#9"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_13", "properties": {"type": "SMS_sender", "callee_numbers": ["13"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_26", "properties": {"type": "SMS_sender", "caller_numbers": ["26"], "callee_numbers": ["26"]}}
+{"type": "node", "id": "SID_41", "properties": {"type": "speaker", "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_28", "properties": {"type": "SMS_sender", "caller_numbers": ["28"], "callee_numbers": ["28"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_55", "properties": {"type": "SMS_sender", "caller_numbers": ["55"], "callee_numbers": ["55"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_40", "properties": {"type": "SMS_sender", "callee_numbers": ["40"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_NA_callee_number_#10", "properties": {"type": "SMS_sender", "callee_numbers": ["NA_callee_number_#10"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_70", "properties": {"type": "SMS_sender", "caller_numbers": ["70"], "callee_numbers": ["70"]}}
+{"type": "node", "id": "SID_24", "properties": {"type": "speaker", "caller_numbers": ["1"], "callee_numbers": ["1"]}}
+{"type": "node", "id": "SID_23", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_78", "properties": {"type": "SMS_sender", "callee_numbers": ["78"]}}
+{"type": "node", "id": "SID_45", "properties": {"type": "speaker", "caller_numbers": ["1"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_46", "properties": {"type": "SMS_sender", "caller_numbers": ["46"]}}
+{"type": "node", "id": "SID_SMS_sender_use_number_53", "properties": {"type": "SMS_sender", "caller_numbers": ["53"], "callee_numbers": ["53"]}}
+{"type": "edge", "source": "SID_0", "target": "SID_17", "properties": {"observed": true, "weight": 12.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_11", "target": "SID_0", "properties": {"observed": true, "weight": 123.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_38", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 46.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_18", "target": "SID_0", "properties": {"observed": true, "weight": 41.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_35", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_0", "target": "SID_18", "properties": {"observed": true, "weight": 14.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_20", "properties": {"observed": true, "weight": 5.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_38", "properties": {"observed": true, "weight": 43.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_58", "properties": {"observed": true, "weight": 57.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_42", "properties": {"observed": true, "weight": 33.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_26", "properties": {"observed": true, "weight": 17.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_17", "target": "SID_0", "properties": {"observed": true, "weight": 12.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_0", "target": "SID_11", "properties": {"observed": true, "weight": 43.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_0", "target": "SID_16", "properties": {"observed": true, "weight": 3.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_63", "properties": {"observed": true, "weight": 7.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_26", "target": "SID_0", "properties": {"observed": true, "weight": 21.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_13", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_16", "target": "SID_0", "properties": {"observed": true, "weight": 8.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_39", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_25", "properties": {"observed": true, "weight": 6.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_25", "target": "SID_0", "properties": {"observed": true, "weight": 7.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_22", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_88", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_42", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 36.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_72", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 4.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_23", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_81", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_94", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_56", "properties": {"observed": true, "weight": 18.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_56", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 18.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_34", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_34", "target": "SID_0", "properties": {"observed": true, "weight": 4.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_17", "target": "SID_1", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_31", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 39.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_37", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_7", "target": "SID_0", "properties": {"observed": true, "weight": 9.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_67", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_54", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_62", "properties": {"observed": true, "weight": 21.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_35", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_61", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_61", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_62", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 4.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_35", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_NA_caller_number", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 7.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_31", "properties": {"observed": true, "weight": 43.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_9", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_7", "properties": {"observed": true, "weight": 2.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_15", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_64", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 28.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_48", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_NA_callee_number_#0", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_27", "properties": {"observed": true, "weight": 20.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_36", "target": "SID_0", "properties": {"observed": true, "weight": 7.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_0", "target": "SID_36", "properties": {"observed": true, "weight": 10.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_0", "target": "SID_20", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_50", "target": "SID_0", "properties": {"observed": true, "weight": 5.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_10", "target": "SID_0", "properties": {"observed": true, "weight": 11.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_27", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 13.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_7", "target": "SID_31", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_7", "target": "SID_1", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_7", "target": "SID_44", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_41", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_26", "target": "SID_31", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_26", "target": "SID_1", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_76", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_6", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_43", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_9", "target": "SID_32", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_57", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 21.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_42", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_0", "target": "SID_21", "properties": {"observed": true, "weight": 2.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_42", "target": "SID_0", "properties": {"observed": true, "weight": 3.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_60", "properties": {"observed": true, "weight": 4.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_1", "target": "SID_17", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_59", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 74.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_64", "properties": {"observed": true, "weight": 13.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_NA_callee_number_#1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_30", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_8", "target": "SID_0", "properties": {"observed": true, "weight": 3.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_21", "target": "SID_0", "properties": {"observed": true, "weight": 2.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_9", "target": "SID_0", "properties": {"observed": true, "weight": 2.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_14", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_3", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 12.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_1", "target": "SID_18", "properties": {"observed": true, "weight": 4.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_0", "target": "SID_1", "properties": {"observed": true, "weight": 3.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_21", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 4.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_21", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_57", "properties": {"observed": true, "weight": 4.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_1", "properties": {"observed": true, "weight": 7.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_44", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 5.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_74", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_47", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_5", "target": "SID_0", "properties": {"observed": true, "weight": 4.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_59", "properties": {"observed": true, "weight": 77.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_10", "properties": {"observed": true, "weight": 4.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_65", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_12", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_0", "target": "SID_33", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_38", "target": "SID_0", "properties": {"observed": true, "weight": 2.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_14", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_36", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_36", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_3", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_18", "target": "SID_28", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_60", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 4.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_15", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_8", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_36", "target": "SID_1", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_0", "target": "SID_46", "properties": {"observed": true, "weight": 7.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_46", "target": "SID_0", "properties": {"observed": true, "weight": 13.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_37", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 4.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_37", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_6", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_58", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_4", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_NA_callee_number_#4", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_NA_callee_number_#5", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_NA_callee_number_#6", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_NA_callee_number_#7", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_33", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_29", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_NA_callee_number_#8", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_32", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 7.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_69", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_69", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_48", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_11", "target": "SID_46", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_operator", "target": "SID_0", "properties": {"observed": true, "weight": 4.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_92", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_11", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_82", "properties": {"observed": true, "weight": 5.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_90", "properties": {"observed": true, "weight": 5.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_40", "target": "SID_0", "properties": {"observed": true, "weight": 3.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_91", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_16", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_30", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_34", "properties": {"observed": true, "weight": 5.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_3", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_32", "properties": {"observed": true, "weight": 9.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_4", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_12", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_25", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_83", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_66", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_19", "properties": {"observed": true, "weight": 4.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_5", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_0", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_48", "target": "SID_0", "properties": {"observed": true, "weight": 13.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_18", "properties": {"observed": true, "weight": 14.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_NA_callee_number_#9", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_11", "target": "SID_1", "properties": {"observed": true, "weight": 2.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_19", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 5.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_13", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_26", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 6.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_41", "properties": {"observed": true, "weight": 3.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_28", "properties": {"observed": true, "weight": 10.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_55", "properties": {"observed": true, "weight": 3.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_55", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_26", "properties": {"observed": true, "weight": 7.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_0", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_28", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_40", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_NA_callee_number_#10", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_70", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_70", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_0", "target": "SID_24", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_24", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_23", "target": "SID_0", "properties": {"observed": true, "weight": 2.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_7", "target": "SID_16", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_7", "target": "SID_26", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_78", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_1", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_45", "target": "SID_0", "properties": {"observed": true, "weight": 1.0, "type": "phone_call"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_46", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 2.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_53", "target": "SID_SMS_sender_use_number_1", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}
+{"type": "edge", "source": "SID_SMS_sender_use_number_1", "target": "SID_SMS_sender_use_number_53", "properties": {"observed": true, "weight": 1.0, "type": "SMS"}}

@@ -1,0 +1,140 @@
+#s01e07: parsed by Indiap's extractor
+{"type": "node", "id": "node_0", "properties": {"type": "person", "name": "both_(nick/warrick)", "role": "other"}}
+{"type": "node", "id": "node_1", "properties": {"type": "person", "name": "brass", "role": "other"}}
+{"type": "node", "id": "node_2", "properties": {"type": "person", "name": "brendacollins", "role": "other"}}
+{"type": "node", "id": "node_3", "properties": {"type": "person", "name": "catherine", "role": "other"}}
+{"type": "node", "id": "node_4", "properties": {"type": "person", "name": "conniebellvue", "role": "other"}}
+{"type": "node", "id": "node_5", "properties": {"type": "person", "name": "conradecklie", "role": "other"}}
+{"type": "node", "id": "node_6", "properties": {"type": "person", "name": "davidphillips", "role": "other"}}
+{"type": "node", "id": "node_7", "properties": {"type": "person", "name": "det._o'riely", "role": "other"}}
+{"type": "node", "id": "node_8", "properties": {"type": "person", "name": "det._o'riley", "role": "other"}}
+{"type": "node", "id": "node_9", "properties": {"type": "person", "name": "dr._albertrobbins", "role": "other"}}
+{"type": "node", "id": "node_10", "properties": {"type": "person", "name": "dr._leever", "role": "other"}}
+{"type": "node", "id": "node_11", "properties": {"type": "person", "name": "eddiewillows", "role": "other"}}
+{"type": "node", "id": "node_12", "properties": {"type": "person", "name": "ems_#1", "role": "other"}}
+{"type": "node", "id": "node_13", "properties": {"type": "person", "name": "grissom", "role": "other"}}
+{"type": "node", "id": "node_14", "properties": {"type": "person", "name": "jesseoverton", "role": "killer"}}
+{"type": "node", "id": "node_15", "properties": {"type": "person", "name": "lie_detector_operator", "role": "other"}}
+{"type": "node", "id": "node_16", "properties": {"type": "person", "name": "lindsey", "role": "other"}}
+{"type": "node", "id": "node_17", "properties": {"type": "person", "name": "lindseywillows", "role": "other"}}
+{"type": "node", "id": "node_18", "properties": {"type": "person", "name": "nick", "role": "other"}}
+{"type": "node", "id": "node_19", "properties": {"type": "person", "name": "officer", "role": "other"}}
+{"type": "node", "id": "node_20", "properties": {"type": "person", "name": "oliver", "role": "suspect"}}
+{"type": "node", "id": "node_21", "properties": {"type": "person", "name": "reporter_1_(woman)", "role": "other"}}
+{"type": "node", "id": "node_22", "properties": {"type": "person", "name": "reporter_2_(woman)", "role": "other"}}
+{"type": "node", "id": "node_23", "properties": {"type": "person", "name": "reporter_3_(man)", "role": "other"}}
+{"type": "node", "id": "node_24", "properties": {"type": "person", "name": "sara", "role": "other"}}
+{"type": "node", "id": "node_25", "properties": {"type": "person", "name": "sheriff_brianmobley", "role": "other"}}
+{"type": "node", "id": "node_26", "properties": {"type": "person", "name": "shibley", "role": "other"}}
+{"type": "node", "id": "node_27", "properties": {"type": "person", "name": "suburban_teen_guy_#1", "role": "other"}}
+{"type": "node", "id": "node_28", "properties": {"type": "person", "name": "suburban_teen_guy_#2", "role": "other"}}
+{"type": "node", "id": "node_29", "properties": {"type": "person", "name": "tedgoggle", "role": "other"}}
+{"type": "node", "id": "node_30", "properties": {"type": "person", "name": "tinacollins", "role": "killer"}}
+{"type": "node", "id": "node_31", "properties": {"type": "person", "name": "warrick", "role": "other"}}
+{"type": "edge", "source": "node_0", "target": "node_18", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_0", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_0", "target": "node_1", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_0", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_3", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_5", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_20", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_18", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_27", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_28", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_14", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_1", "target": "node_15", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_2", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_18", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_17", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_16", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_11", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_27", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_28", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_14", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_15", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_3", "target": "node_29", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_4", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_4", "target": "node_10", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_5", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_5", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_5", "target": "node_20", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_5", "target": "node_9", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_6", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_6", "target": "node_18", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_7", "target": "node_8", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_7", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_7", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_7", "target": "node_21", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_7", "target": "node_22", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_7", "target": "node_23", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_7", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_8", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_8", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_8", "target": "node_21", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_8", "target": "node_22", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_8", "target": "node_23", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_8", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_8", "target": "node_19", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_8", "target": "node_12", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_8", "target": "node_25", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_9", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_10", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_11", "target": "node_17", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_11", "target": "node_16", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_11", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_12", "target": "node_13", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_12", "target": "node_21", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_12", "target": "node_25", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_12", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_26", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_21", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_22", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_23", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_18", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_19", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_25", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_20", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_27", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_28", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_14", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_13", "target": "node_15", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_14", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_14", "target": "node_27", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_14", "target": "node_28", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_14", "target": "node_18", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_14", "target": "node_15", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_14", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_15", "target": "node_18", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_15", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_16", "target": "node_17", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_18", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_18", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_20", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_21", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_21", "target": "node_22", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_21", "target": "node_23", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_21", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_21", "target": "node_25", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_22", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_22", "target": "node_23", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_22", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_23", "target": "node_24", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_23", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_24", "target": "node_26", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_24", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_24", "target": "node_25", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_24", "target": "node_31", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_27", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_27", "target": "node_28", "properties": {"type": "talk_to", "observed": true, "weight": 1}}
+{"type": "edge", "source": "node_28", "target": "node_30", "properties": {"type": "talk_to", "observed": true, "weight": 1}}

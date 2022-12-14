@@ -1,0 +1,191 @@
+#Montreal Street Gangs
+#URL: https://sites.google.com/site/ucinetsoftware/datasets/covert-networks/montrealstreetgangs
+##############################################
+{"type": "node", "id": "Bo-Gars", "properties": {"type": "group", "name": "Bo-Gars", "affiliation": "Bloods", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "BMF", "properties": {"type": "group", "name": "BMF", "affiliation": "Bloods", "ethnicity": "Hispanic", "teriory": "East"}}
+{"type": "node", "id": "Green_Land", "properties": {"type": "group", "name": "Green_Land", "affiliation": "Bloods", "ethnicity": "mixed", "teriory": "East"}}
+{"type": "node", "id": "Lg_Side", "properties": {"type": "group", "name": "Lg Side", "affiliation": "Bloods", "ethnicity": "Caucasian", "teriory": "East"}}
+{"type": "node", "id": "Plan_riel", "properties": {"type": "group", "name": "Plan riel", "affiliation": "Bloods", "ethnicity": "mixed", "teriory": "East"}}
+{"type": "node", "id": "18th", "properties": {"type": "group", "name": "18th", "affiliation": "Bloods", "ethnicity": "Hispanic", "teriory": "East"}}
+{"type": "node", "id": "187", "properties": {"type": "group", "name": "187", "affiliation": "Bloods", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "AYB.2", "properties": {"type": "group", "name": "AYB.2", "affiliation": "Bloods", "ethnicity": "Asian"}}
+{"type": "node", "id": "AYB", "properties": {"type": "group", "name": "AYB", "affiliation": "Bloods", "ethnicity": "Asian", "teriory": "West"}}
+{"type": "node", "id": "Uptown_Posse", "properties": {"type": "group", "name": "Uptown_Posse", "affiliation": "Bloods", "ethnicity": "Afro-Canadian", "teriory": "West"}}
+{"type": "node", "id": "Dangerous_Street", "properties": {"type": "group", "name": "Dangerous_Street", "affiliation": "Crips", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "DPC", "properties": {"type": "group", "name": "DPC", "affiliation": "Crips", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "J.O.K.E.R.S", "properties": {"type": "group", "name": "J.O.K.E.R.S", "affiliation": "Crips", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "Pie-IX", "properties": {"type": "group", "name": "Pie-IX", "affiliation": "Crips", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "Px-80", "properties": {"type": "group", "name": "Px-80", "affiliation": "Crips", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "50_Niggaz", "properties": {"type": "group", "name": "50 Niggaz", "affiliation": "Bloods", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "13th", "properties": {"type": "group", "name": "13th", "affiliation": "Crips", "ethnicity": "Hispanic", "teriory": "East"}}
+{"type": "node", "id": "67", "properties": {"type": "group", "name": "67", "affiliation": "Crips", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "99", "properties": {"type": "group", "name": "99", "affiliation": "Crips", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "146", "properties": {"type": "group", "name": "146", "affiliation": "Crips", "ethnicity": "mixed", "teriory": "East"}}
+{"type": "node", "id": "Black_Dragons", "properties": {"type": "group", "name": "Black_Dragons", "affiliation": "Other", "ethnicity": "Asian", "teriory": "Downtown"}}
+{"type": "node", "id": "Outlaws", "properties": {"type": "group", "name": "Outlaws", "affiliation": "Other", "ethnicity": "Afro-Canadian", "teriory": "Downtown"}}
+{"type": "node", "id": "South_Side", "properties": {"type": "group", "name": "South_Side", "affiliation": "Crips", "ethnicity": "Afro-Canadian", "teriory": "Downtown"}}
+{"type": "node", "id": "White_Tigers", "properties": {"type": "group", "name": "White_Tigers", "affiliation": "Other", "ethnicity": "Asian", "teriory": "Downtown"}}
+{"type": "node", "id": "Motard", "properties": {"type": "group", "name": "Motard", "affiliation": "Other", "ethnicity": "mixed", "teriory": "Downtown"}}
+{"type": "node", "id": "Bronx", "properties": {"type": "group", "name": "Bronx", "teriory": "West"}}
+{"type": "node", "id": "LPE", "properties": {"type": "group", "name": "LPE", "teriory": "West"}}
+{"type": "node", "id": "PSC", "properties": {"type": "group", "name": "PSC", "teriory": "West"}}
+{"type": "node", "id": "St.Henri", "properties": {"type": "group", "name": "St.Henri", "teriory": "West"}}
+{"type": "node", "id": "V_Block", "properties": {"type": "group", "name": "V_Block", "teriory": "West"}}
+{"type": "node", "id": "47", "properties": {"type": "group", "name": "47", "affiliation": "Crips", "ethnicity": "Afro-Canadian"}}
+{"type": "node", "id": "Blue_Devil.1", "properties": {"type": "group", "name": "Blue_Devil.1", "affiliation": "Crips", "ethnicity": "Afro-Canadian"}}
+{"type": "node", "id": "Blue_Devil.2", "properties": {"type": "group", "name": "Blue_Devil.2", "affiliation": "Crips", "ethnicity": "Afro-Canadian"}}
+{"type": "node", "id": "RTC", "properties": {"type": "group", "name": "RTC", "affiliation": "Crips", "ethnicity": "Afro-Canadian", "teriory": "East"}}
+{"type": "node", "id": "Ve_Crew", "properties": {"type": "group", "name": "Ve_Crew", "affiliation": "Other", "ethnicity": "Caucasian", "teriory": "West"}}
+{"type": "edge", "source": "Bo-Gars", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Bo-Gars", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Bo-Gars", "target": "J.O.K.E.R.S", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Bo-Gars", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Bo-Gars", "target": "47", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Bo-Gars", "target": "Blue_Devil.2", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "Bo-Gars", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "Green_Land", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "187", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "AYB.2", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "AYB", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "Uptown_Posse", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "DPC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "Pie-IX", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "Px-80", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "50_Niggaz", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "67", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "99", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "47", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "Blue_Devil.1", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "Blue_Devil.2", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "BMF", "target": "RTC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Green_Land", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Green_Land", "target": "47", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Lg_Side", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Lg_Side", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Plan_riel", "target": "47", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "Bo-Gars", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "Lg_Side", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "187", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "AYB.2", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "AYB", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "Uptown_Posse", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "DPC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "J.O.K.E.R.S", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "Pie-IX", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "Px-80", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "67", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "18th", "target": "99", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "187", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "187", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "187", "target": "RTC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB.2", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB.2", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB.2", "target": "AYB", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB", "target": "AYB.2", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB", "target": "Uptown_Posse", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB", "target": "Pie-IX", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB", "target": "Black_Dragons", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "AYB", "target": "White_Tigers", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Uptown_Posse", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Uptown_Posse", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Uptown_Posse", "target": "AYB", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dangerous_Street", "target": "Pie-IX", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dangerous_Street", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dangerous_Street", "target": "South_Side", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "DPC", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "DPC", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "DPC", "target": "J.O.K.E.R.S", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "J.O.K.E.R.S", "target": "Bo-Gars", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "J.O.K.E.R.S", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "J.O.K.E.R.S", "target": "DPC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "J.O.K.E.R.S", "target": "Pie-IX", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "J.O.K.E.R.S", "target": "50_Niggaz", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "J.O.K.E.R.S", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "J.O.K.E.R.S", "target": "Motard", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pie-IX", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pie-IX", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pie-IX", "target": "AYB", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pie-IX", "target": "Dangerous_Street", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pie-IX", "target": "J.O.K.E.R.S", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pie-IX", "target": "Px-80", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pie-IX", "target": "50_Niggaz", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pie-IX", "target": "South_Side", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Px-80", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Px-80", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Px-80", "target": "Pie-IX", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Px-80", "target": "50_Niggaz", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Px-80", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "50_Niggaz", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "50_Niggaz", "target": "J.O.K.E.R.S", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "50_Niggaz", "target": "Pie-IX", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "50_Niggaz", "target": "Px-80", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "50_Niggaz", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "50_Niggaz", "target": "South_Side", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "50_Niggaz", "target": "47", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "Bo-Gars", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "Lg_Side", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "AYB", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "Dangerous_Street", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "J.O.K.E.R.S", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "Px-80", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "50_Niggaz", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "67", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "99", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "South_Side", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "47", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "Blue_Devil.2", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "13th", "target": "RTC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "67", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "67", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "67", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "99", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "99", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "99", "target": "47", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "99", "target": "RTC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "146", "target": "47", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Black_Dragons", "target": "AYB", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Outlaws", "target": "Blue_Devil.2", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "South_Side", "target": "18th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "South_Side", "target": "Dangerous_Street", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "South_Side", "target": "Pie-IX", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "South_Side", "target": "50_Niggaz", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "South_Side", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "South_Side", "target": "RTC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "White_Tigers", "target": "AYB", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Motard", "target": "J.O.K.E.R.S", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "LPE", "target": "Ve_Crew", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "PSC", "target": "Ve_Crew", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "St.Henri", "target": "Ve_Crew", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "47", "target": "Bo-Gars", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "47", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "47", "target": "Green_Land", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "47", "target": "Plan_riel", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "47", "target": "50_Niggaz", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "47", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "47", "target": "99", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "47", "target": "146", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Blue_Devil.1", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Blue_Devil.1", "target": "Blue_Devil.2", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Blue_Devil.1", "target": "RTC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Blue_Devil.2", "target": "Bo-Gars", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Blue_Devil.2", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Blue_Devil.2", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Blue_Devil.2", "target": "Outlaws", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Blue_Devil.2", "target": "Blue_Devil.1", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "RTC", "target": "BMF", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "RTC", "target": "187", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "RTC", "target": "13th", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "RTC", "target": "South_Side", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "RTC", "target": "Blue_Devil.1", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Ve_Crew", "target": "LPE", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Ve_Crew", "target": "PSC", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Ve_Crew", "target": "St.Henri", "properties": {"type": "prior_contact", "observed": true, "weight": 1}}

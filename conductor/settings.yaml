@@ -1,0 +1,35 @@
+# All the settings here will be added to Flask.config
+# Run
+# temp_file_folder: /sna/serve/temp 
+versions:
+  - 1.0
+
+# Connections
+# janusgraph_host: localhost
+# janusgraph_port: 8182
+
+# Auth
+roles:
+  - User
+  - Admin
+
+default_admin:
+  username: admin
+  password: Pass1234
+
+JWT_SECRET_KEY: super-secret
+JWT_ACCESS_TOKEN_EXPIRES: 1 # Days
+
+auth_traversal: g
+
+# Celery
+
+CELERY_BROKER_URL: redis://localhost:6379/0
+CELERY_RESULT_BACKEND: redis://localhost:6379/0
+REDIS_URL: redis://localhost:6379/0
+CELERY_IGNORE_RESULT: False
+CELERY_PERSIST_RESULT: 60 # Minutes
+
+# Logging settings
+LOG_LEVEL: INFO
+LOG_FORMAT: "%(asctime)s:%(levelname)s:%(name)s:%(message)s"

@@ -1,0 +1,627 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" type="image/png" href="./images/favicon.png"/>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>Visualizer User Documentation</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid-page; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print { 
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignObject { font-size: var(--mermaid-font-zoom); }
+
+
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.CodeMirror-scroll { overflow-y: hidden; overflow-x: auto; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right-width: 1px; border-right-style: solid; border-right-color: rgb(221, 221, 221); background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; white-space: nowrap; background-position: inherit inherit; background-repeat: inherit inherit; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 30px; z-index: 3; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; border: none !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; border-width: 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; word-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; background-position: 0px 0px; background-repeat: initial initial; }
+.CodeMirror-wrap pre { word-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right-width: 30px; border-right-style: solid; border-right-color: transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right-style: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right-style: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background-color: rgba(255, 255, 0, 0.4); background-position: initial initial; background-repeat: initial initial; }
+@media print { 
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+ :root {--mermaid-font-zoom:1em ;} 
+</style>
+</head>
+<body class='typora-export'>
+<div id='write'  class=''><p>&nbsp;</p><h1><a name="visualizer-user-documentation" class="md-header-anchor"></a><span>Visualizer User Documentation</span></h1><p>&nbsp;</p><blockquote><p>⚠️<span> </span><strong><span>The visualizer is a work in progress</span></strong><span>. You may experience stability issues or other bugs. The user interface as described in this document is not final and may change at some point. Also, features may be added, changed or removed in the future. </span></p></blockquote><p>&nbsp;</p><blockquote><p>ℹ️<span> </span><strong><span>Note regarding inconsistent vocabulary</span></strong><span> : At some places in this documentation as well as in the visualizer itself the word </span><em><span>entity</span></em><span> is used where elsewhere it is a </span><em><span>node</span></em><span>. The same goes for </span><em><span>link</span></em><span> and </span><em><span>edge</span></em><span>. While one makes sense in the context of networks and the other in the context of graphs, they are the same thing to the visualizer. While the vocabulary will probably be made more consistent in the future, this note may prevent any potential confusion for the time being. </span></p></blockquote><p>&nbsp;</p><hr /><p>&nbsp;</p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n1062"><a class="md-toc-inner" href="#visualizer-user-documentation">Visualizer User Documentation</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n1072"><a class="md-toc-inner" href="#getting-started">Getting Started</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n1111"><a class="md-toc-inner" href="#server">Server</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n1138"><a class="md-toc-inner" href="#user-interface">User Interface</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n1145"><a class="md-toc-inner" href="#sidebar">Sidebar</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1150"><a class="md-toc-inner" href="#element-and-network-information">Element and Network Information</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1161"><a class="md-toc-inner" href="#network-tab">Network Tab</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n1162"><a class="md-toc-inner" href="#load-internal-network">Load Internal Network</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n1180"><a class="md-toc-inner" href="#load-external-network">Load External Network</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n1187"><a class="md-toc-inner" href="#export-and-save-network">Export and Save Network</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1206"><a class="md-toc-inner" href="#analysis-tab">Analysis Tab</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n1247"><a class="md-toc-inner" href="#main-frame">Main Frame</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1748"><a class="md-toc-inner" href="#graph">Graph</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1252"><a class="md-toc-inner" href="#info">Info</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n2985"><a class="md-toc-inner" href="#searching">Searching</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1253"><a class="md-toc-inner" href="#original-network">Original Network</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1892"><a class="md-toc-inner" href="#probability-threshold-slider">Probability Threshold Slider</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n2965"><a class="md-toc-inner" href="#element-types-and-variables">Element Types and Variables</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1255"><a class="md-toc-inner" href="#exploring">Exploring</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1256"><a class="md-toc-inner" href="#editing">Editing</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n1260"><a class="md-toc-inner" href="#"></a></span></p></div><hr /><p>&nbsp;</p><h2><a name="getting-started" class="md-header-anchor"></a><span>Getting Started</span></h2><p><strong><span>Run the server</span></strong></p><p><span>Start the server by executing the </span><code>index.py</code><span> with Python 3:  </span></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="bash"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="bash"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-def">$ python</span> index.py</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 22px;"></div><div class="CodeMirror-gutters" style="display: none; height: 22px;"></div></div></div></pre><p>&nbsp;</p><p><strong><span>Open the visualizer</span></strong></p><p><span>The server now listens locally on port 8050. Click the link provided by the command line interface or visit </span><code>0.0.0.0:8050</code><span> directly.</span></p><p>&nbsp;</p><p><strong><span>Load a network</span></strong></p><ol start='' ><li><span>On the right side open the </span><code>Select network ...</code><span> dropdown and select the network you want to work with. </span></li></ol><p><img src="./images/network_selection.png" alt="image-20210319165848492" style="zoom:50%;" /></p><p>&nbsp;</p><ol start='2' ><li><span>In the dropdown menu below select the entities you are interested in. You can filter the available entities by typing what you are looking for. You can select one or multiple entities or leave this field blank if you want to load the entire network. </span></li></ol><p><img src="./images/entity_selection.png" alt="entity_selection" style="zoom:50%;" /></p><p>&nbsp;</p><ol start='3' ><li><p><span>Press the </span><code>LOAD NETWORK</code><span> button to load the selection. All selected entities are displayed as well as all entities to which an outgoing edge exists from your selected entities. </span></p><p>&nbsp;</p></li></ol><p><strong><span>Explore the network</span></strong></p><p><span>The network should be displayed now. Entities ( = nodes) are represented by circles with edges representing the links between them. Entities can be repositioned by clicking and dragging. When hovering over entities or edges their information is displayed on the right side. Entities with a plus sign on top are expandable - means they have outgoing links not yet displayed.</span></p><p><span>To expand an expandable entity click it first. A red border around an entity means it is selected. You can select multiple entities at once. Now, click the </span><code>EXPAND NODE(S)</code><span> button on the bottom right to expand the selected nodes. </span></p><p>&nbsp;</p><p><img src="./images/network_exploration.png" alt="network_exploration" style="zoom:40%;" /></p><p>&nbsp;</p><p><strong><span>Apply Network Analysis</span></strong></p><p><span>To apply any network analysis, switch to the </span><code>ANALYSIS</code><span> tab on the top right. In the uppermost dropdown select the analysis function to apply. In the one below choose an according algorithm. For some of the algorithms parameters can also be selected. Community detection and social influence analysis are applied on the whole network while link prediction is applied to the currently selected nodes. Click </span><code>ANALYZE</code><span> when analysis function and algorithm are  selected. </span></p><p><img src="./images/network_analysis.png" alt="network_analysis" style="zoom:40%;" /></p><p style="text-align: center;"> <i> Applying community detection and link prediction</i> </p>	<p><span>																					</span></p><p><strong><span>Export Results</span></strong></p><p><span>To export the network go back to the </span><code>NETWORK</code><span> tab. Click </span><code>EXPORT IMAGE</code><span> and choose a image format in the presented dialog. Press </span><code>DOWNLOAD</code><span>to download the image to your local disk. </span><em><span>For export of the current network or saving of the current state see full documentation under </span><a href='#export-and-save-network'><span>Export and Save the Network</span></a><span>.</span></em></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h2><a name="server" class="md-header-anchor"></a><span>Server</span></h2><p>&nbsp;</p><blockquote><p>ℹ️<span> All files referenced in this section are located in the </span><code>visualizer</code><span> module of the of L3S&#39;s system for social network analysis.</span></p></blockquote><p>&nbsp;</p><p><strong><span>Dependencies</span></strong><span> </span></p><p><span>All dependencies are listed in the </span><code>requirements.txt</code><span> and can be installed using </span><code>pip install -r requirements.txt</code><span>.</span></p><blockquote><p>⚠️<span> At the time where this documentation was written, the </span><code>requirements.txt</code><span> may contain some unused dependencies or even unavailable ones. If the </span><code>requirements.txt</code><span> doesn&#39;t work, you may need to install required packages manually.</span></p></blockquote><p>&nbsp;</p><p><strong><span>Run Server</span></strong><span> </span></p><p><span>Start the server by running </span><code>index.py</code><span> using Python 3. </span></p><p>&nbsp;</p><p><strong><span>Arguments</span></strong></p><p><span>The server may be run with the following optional arguments:</span></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="bash"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="bash"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">python index.py [-h] [--data DATA] [--debug] [--host HOST]</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 22px;"></div><div class="CodeMirror-gutters" style="display: none; height: 22px;"></div></div></div></pre><p><span>	</span></p><blockquote><p><span>    </span><code>--data</code><span>:    Expects a local directory which contains network files in the L3S network format. The containing networks are available for loading at the network selection dropdown (see </span><a href='#load-network'><span>Load Network</span></a><span>).</span></p><p><span>	</span><code>--debug</code><span>:   Set this flag to start the server in debug mode.</span></p><p><span>	</span><code>--host</code><span>:</span><span>	</span><span> Expects an IP address. The server is run on the given host. </span></p></blockquote><p>&nbsp;</p><blockquote><p>⚠️<span> </span><strong><span>Regarding the L3S network format</span></strong><span>: The format is used by the whole L3S social network analysis system and not exclusive to the visualizer. For documentation of the format look for the general L3S social network analysis systems documentation.</span></p></blockquote><p>&nbsp;</p><hr /><p>&nbsp;</p><h2><a name="user-interface" class="md-header-anchor"></a><span>User Interface</span></h2><p>&nbsp;</p><p><img src="./images/visualizer_ui.png" referrerpolicy="no-referrer" alt="visualizer user interface"></p><p style="text-align: center;"> <i> The visualizer user interface and its components as referred to in this documentation</i> </p>													<p>&nbsp;</p><hr /><p>&nbsp;</p><h3><a name="sidebar" class="md-header-anchor"></a><span>Sidebar</span></h3><p><span>The sidebar contains everything related to loading, saving and exporting a network in the </span><a href='#network-tab'><span>Network Tab</span></a><span>, the network analysis tools in the </span><a href='#analysis-tab'><span>Analysis Tab</span></a><span> and  </span><a href='#element-and-network-information'><span>Element and Network Information</span></a><span>.</span></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="element-and-network-information" class="md-header-anchor"></a><span>Element and Network Information</span></h4><p><strong><span>Element Information</span></strong></p><p><span>When hovering over nodes or edges information about the element is displayed here.</span></p><blockquote><p>⚠️<span> </span><strong><span>Known Bug</span></strong><span>: There is a known bug where information doesn&#39;t get updated when you first hover over a entity, then over an edge and then over the same entity again. Until fixed, it is required to hover over </span><strong><span>another</span></strong><span> entity before hovering over the original entity again.</span></p></blockquote><p>&nbsp;</p><p><strong><span>Network Information</span></strong></p><p><span>The name of the network as well as number of nodes and edges is shown here. When altering the network, this information gets updated.</span></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="network-tab" class="md-header-anchor"></a><span>Network Tab</span></h4><p>&nbsp;</p><h5><a name="load-internal-network" class="md-header-anchor"></a><span>Load Internal Network</span></h5><p><span>Internal networks can be loaded using the </span><code>LOAD NETWORK</code><span> button after selecting a network and optionally some entities to load.</span></p><p>&nbsp;</p><p><img src="./images/network_selection2.png" alt="network_selection2" style="zoom:43%;" /><span>		</span><img src="./images/entitiy_selection2.png" alt="entitiy_selection2" style="zoom: 45%;" /></p><p><span>							</span><em><span>Selecting a network and some entities to load</span></em></p><p>&nbsp;</p><p><strong><span>Select Network</span></strong></p><p><span>Use the </span><code>Select network ...</code><span> dropdown, to select one of the visualizers inbuilt networks. If a local directory is defined when starting the server using </span><code>--data</code><span> (see </span><a href='#server'><span>Server</span></a><span>), the local networks are loaded and displayed here at the top. You can load the whole network by leaving the </span><code>Select entities...</code><span> selection blank.</span></p><blockquote><p>⚠️<span> </span><strong><span>Loading huge networks</span></strong><span>: The visualizer is not build for loading, displaying and exploring huge networks with thousands upon thousands of nodes or edges at once. Large networks may take some time to load or even make the browser throw an time out exception in extreme cases.</span></p></blockquote><p>&nbsp;</p><p><strong><span>Select Entities</span></strong><span>:</span></p><p><span>Optionally, specific entities can be chosen before loading the network. These are listed by their </span><code>name</code><span> or </span><code>label</code><span> or alternatively by their </span><code>ID</code><span> if those are not specified in the dataset. The dropdown menu is searchable. When a network is loaded with entitites selected, the selected entities as well as all entities connected to the selected entities by an outgoing edge are initially displayed. </span></p><blockquote><p>ℹ️<span> </span><strong><span>Regarding Large Networks</span></strong><span>: Choosing specific entities to start exploration of a network with should be the prefered approach when dealing with large networks.</span></p></blockquote><p>&nbsp;</p><hr /><p>&nbsp;</p><h5><a name="load-external-network" class="md-header-anchor"></a><span>Load External Network</span></h5><p><span>The </span><code>LOAD FROM FILE</code><span> Button opens the systems dialog to load a local dataset. The selected data is assumed to be either a file in the L3S network format (</span><em><span>see L3S social network analysis system documentation</span></em><span>) or a save file obtained by using the </span><a href='#save-network-state'><span>Save Network State</span></a><span> functionality described below. </span></p><blockquote><p>ℹ️<span> </span><strong><span>Add external network as internal network</span></strong><span>:  Networks can be added to the internal networks by specifying a directory containing network files using the command line argument </span><code>--data DATA</code><span> (see </span><a href='#server'><span>Server</span></a><span>). This also allows loading partial networks by selecting entities which is not possible using the </span><code>LOAD FROM FILE</code><span> feature. </span></p></blockquote><p>&nbsp;</p><hr /><p>&nbsp;</p><h5><a name="export-and-save-network" class="md-header-anchor"></a><span>Export and Save Network</span></h5><p><span>Current work can be saved and the network can be exported to file or an image using the buttons located below the </span><code>LOAD FROM FILE</code><span> button in the network tab of the sidebar. </span></p><p>&nbsp;</p><blockquote><p>⚠️<span> </span><strong><span>Reloading resets the current state of work!</span></strong><span> </span></p><p><span>If you work with a network (inbuilt or external), the current state only exists in memory. No changes are stored persistently. The only way to save the results of working with the visualizer is using the features explained in this section.</span></p><p><span>The current state of the visualizer does not save the state between browser sessions. If the visualizer is reloaded, the current state is lost. </span></p></blockquote><p>&nbsp;</p><p><strong><span>Save Network State</span></strong><span>:</span></p><p><span>The </span><code>SAVE NETWORK STATE</code><span> button creates a save file which includes all information about the current state of a network&#39;s visualization and allows the user to continue to work with the network later on. </span></p><p>&nbsp;</p><p><strong><span>Export Network File</span></strong><span>:</span></p><p><span>The </span><code>EXPORT NETWORK</code><span> button exports a file in the official L3S network format (</span><em><span>see L3S social network analysis system documentation</span></em><span>).</span></p><p>&nbsp;</p><blockquote><p>ℹ️<span> </span><strong><span>Saving vs. Exporting</span></strong><span>:</span></p><p><span>There are two main differences between exporting and saving a network:</span></p><p><strong><span>a) Format</span></strong><span>: While the file received when exporting a network is in the official L3S network format, the one obtained by saving is in another, internal format. This is necessary to make </span><strong><span>b)</span></strong><span> possible.</span></p><p><strong><span>b) Network Information</span></strong><span>: When exporting a network, the exported file represents the network as it was </span><em><span>seen</span></em><span> by the user in the user interface. Unexpanded nodes and edges are </span><em><span>not</span></em><span> included in the exported network. The file obtained by saving the network does retain all information about the whole network as well as the currently visible state of the network.</span></p></blockquote><p>&nbsp;</p><p><strong><span>Export Image</span></strong><span>:</span></p><p><span>Images of the network visualization can be exported using the </span><code>EXPORT IMAGE</code><span> button. When pressing the button the user is presented with a dialog where an image format has to be chosen.</span></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="analysis-tab" class="md-header-anchor"></a><span>Analysis Tab</span></h4><p><span>The </span><code>ANALYSIS</code><span> tab of the sidebar allows the user to apply network analysis algorithms to the currently visible network. The analysis results are visually applied to the network. </span></p><p>&nbsp;</p><blockquote><p>ℹ️<span> </span><strong><span>Altering an analyzed network</span></strong><span>: When expanding, adding or removing nodes (or edges), the analysis results are automatically removed and need to be reapplied. This is only logical, because earlier network analysis probably is not valid for an altered network anymore.</span></p></blockquote><p>&nbsp;</p><p><span>These are the steps needed to execute network analysis: </span></p><ol start='' ><li><span>Choose an </span><strong><span>analysis function</span></strong><span> from the first drop down. </span></li><li><span>Choose a specific </span><strong><span>algorithm</span></strong><span> to perform.</span></li><li><span>Some algorithms also allow the user to set </span><strong><span>parameters</span></strong><span>.</span></li></ol><p>&nbsp;</p><blockquote><p>⚠️<span> </span><strong><span>Info about the algorithms</span></strong><span>: Information about the implementation of the available analysis algorithms are not yet part of this documentation but will probably added at some point. You may also want to look at the L3S&#39;s socials network analysis documentation for more information. </span></p></blockquote><p>&nbsp;</p><p><u><strong><span>Community Detection</span></strong></u></p><p>&nbsp;</p><p><img src="./images/community_detection.png" alt="community_detection" style="zoom:40%;" /></p><p>&nbsp;</p><p style="text-align: center;"> <i>Applying community detection using modularity maximization on a network</i> </p>	<p><span>Community detection algorithms are visualized by colouring entities of the same community in the same colour. Some algorithms allow entities to remain unassigned to any community. These Entities remain coloured in the default colour. </span></p><p>&nbsp;</p><p><u><strong><span>Social Influence Analysis</span></strong></u></p><p>&nbsp;</p><p><img src="./images/social_influence.png" alt="social_influence" style="zoom:45%;" /></p><p style="text-align: center;"> <i>Applying social influence analysis using pagerank on a network</i> </p>	<p><span>Social influence is visualized by using the nodes opacity: The darker a node, the stronger is its influence in the network according to the applied algorithm. </span></p><p>&nbsp;</p><p><strong><u><span>Link Prediction</span></u></strong></p><p>&nbsp;</p><p><img src="./images/link_prediction.png" alt="link_prediction" style="zoom:40%;" /></p><p style="text-align: center;"> <i>Applying link prediction on three selected entities using Jaccard Coefficient</i> </p>	<p><span>Link prediction is a little different from social influence analysis and community detection. First of all, at least one entity needs to be selected (by clicking on them) before applying link prediction. The three most likely links are then displayed by a dotted yellow line for each selected entity. It is also possible to apply link prediction why keeping the results of community detection or social influence analysis. </span></p><blockquote><p>⚠️<span> You should be aware of the fact, that in contrast to community detection and social influence analysis elements get repositioned when applying link prediction. Especially when working with a bigger network this  potentially means a significant loss of oversight. Unfortunately, There is currently no easy solution to this.</span></p></blockquote><p>&nbsp;</p><p>&nbsp;</p><hr /><p>&nbsp;</p><p>&nbsp;</p><h3><a name="main-frame" class="md-header-anchor"></a><span>Main Frame</span></h3><p>&nbsp;</p><hr /><p>&nbsp;</p><p><img src="./images/main_frame.png" alt="main_frame" style="zoom:30%;" /></p><p style="text-align: center;"> <i>This is the main frame of the visualizer - primarily containing the visualization of the network itself and means to edit and explore it</i> </p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="graph" class="md-header-anchor"></a><span>Graph</span></h4><p><span>This is the area of the visualizer which contains the visualization of the network. </span></p><p>&nbsp;</p><p><strong><span>Nodes Visualization</span></strong><span>:</span></p><p><span>Each node is initially displayed with a label attached to it. If the underlying dataset contains a </span><code>label</code><span> or </span><code>name</code><span> field, the content of that field is used. Otherwise it uses the </span><code>id</code><span> field (</span><em><span>see </span><a href='#element-types-and-variables'><span>Element Types and Variables</span></a><span> on how to change which labels are displayed</span></em><span>). The appearance of nodes is determined by their </span><code>type</code><span> property: Different </span><em><span>types</span></em><span> of nodes are visualized using different shapes and colours. </span></p><p><span>Expandable nodes are marked by having a green plus sign on top of itself. A node is expandable if it has outgoing edges to nodes not yet displayed by the visualizer. </span></p><p>&nbsp;</p><p><strong><span>Edge Visualization</span></strong><span>:</span></p><p><span>If there is a </span><code>probability</code><span> or </span><code>weight</code><span> property attached to an edge, the thickness of an edges depend on the value of that property. Everything else is pretty much self explanatory.</span></p><p>&nbsp;</p><p><strong><span>Graph Interactivity</span></strong></p><p><span>There are basically two main interactions with the graph: </span><em><span>Click &amp; Drag</span></em><span> and </span><em><span>Click</span></em><span>.</span></p><p><span>Nodes can be moved around by clicking and dragging them to the desired position. It is also possible to drag the whole window. Furthermore, nodes and edges can be clicked, which changes their visual appearance and allow for further interaction with the </span><em><span>selected</span></em><span> element(s). Clicking nodes also highlights neighbouring nodes and outgoing edges.</span></p><p>&nbsp;</p><blockquote><p>ℹ️<span> The position of elements is recomputed every time a new element is added to or removed from the  network. This includes simple tasks such as expanding a node. While this is not ideal in terms of keeping an overview of the network at hand, there is currently no easy solution to this. This may be changed in a future release of the visualizer. </span></p></blockquote><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="info" class="md-header-anchor"></a><span>Info</span></h4><p><span>The info area informs the user about their performed interactions, mishandling of the system such as missing inputs or more critical errors of the system.</span></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="searching" class="md-header-anchor"></a><span>Searching</span></h4><blockquote><p>⚠️<span> </span><strong><span>Disabled</span></strong><span>: Implementation of an in depth network search is being worked on but disabled until fully working. </span></p></blockquote><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="original-network" class="md-header-anchor"></a><span>Original Network</span></h4><p>&nbsp;</p><p><img src="./images/comparison_network.png" alt="comparison_network.png" style="zoom:35%;" /></p><p style="text-align: center;"> <i>Visualizer with the original network open for comparison</i> </p><p>&nbsp;</p><p><span>The </span><code>OPEN ORIGINAL NETWORK</code><span> button splits the screen and displays the network in the original state next to the main network. Being in the </span><em><span>original state</span></em><span> means, the network is in exactly the state it was in when it was first loaded. All changes done do the network in the main windows are not adopted in the </span><em><span>original network</span></em><span>. Some elements of the GUI are hidden while the </span><em><span>original network</span></em><span> is open. </span></p><p><span>The </span><em><span>original network</span></em><span> can be dragged around and nodes can be repositioned but no other changes can be made to this network. The </span><code>CLOSE ORIGINAL NETWORK</code><span> button closes the original network view and brings the main network area back to full size. </span></p><blockquote><p>ℹ️<span> Due to a random factor in the layout function used to position elements, the original network may be positioned different than the main network. This may be changed in the future. </span></p></blockquote><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="probability-threshold-slider" class="md-header-anchor"></a><span>Probability Threshold Slider</span></h4><p>&nbsp;</p><p><img src="./images/prob_slider.png" alt="prob_slider" style="zoom:40%;" /></p><p style="text-align: center;"> <i>Probability threshold set to 0.15 - links with a lower probabiblity or hidden.</i> </p><p>&nbsp;</p><p><span>If the network dataset provides probabilities for its edges a probability threshold slider is presented below the network visualization. This slider can be used to hide edges below a certain threshold value. Only edges above the threshold are displayed.</span></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="element-types-and-variables" class="md-header-anchor"></a><span>Element Types and Variables</span></h4><p>&nbsp;</p><p><img src="./images/element_type.png" alt="element_type" style="zoom:35%;" /></p><p style="text-align: center;"> <i>Using the Element Types and Label Variables feature to hide edges of a certain type, highlight some node and edge types and displaying data variables above the nodes.</i> </p><p>&nbsp;</p><p><span>The controls at the bottom left allow hiding and highlighting node and edge types as well as selecting the variables to be displayed above the nodes in the visualization. Element types are defined in the underlying network dataset with the </span><code>type</code><span> field. All node variables/properties present in the underlying dataset can be displayed as labels using the undermost of the three boxes. </span></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="exploring" class="md-header-anchor"></a><span>Exploring</span></h4><p><span>The three buttons with the green border on the right hand side of the network graph are used to explore the network.  These features only change what is visible to the user and </span><em><span>do not</span></em><span> alter the underlying network itself. </span></p><p><strong><span>Expand node(s)</span></strong><span>: The </span><code>EXPAND NODE(S)</code><span> button expands all nodes which are currently selected. When a node </span><em><span>n</span></em><span> is expanded, all nodes which are connected by an outgoing edge from </span><em><span>n</span></em><span> are added to the visualization. All edges connecting now present nodes are also displayed. </span></p><p><strong><span>Expand all nodes</span></strong><span>: Pressing the </span><code>EXPAND ALL NODES</code><span> button expands all currently expandable nodes as described above.</span></p><p><strong><span>Exclude elements</span></strong><span>: </span><code>EXCLUDE ELEMENTS</code><span> excludes all currently selected nodes and/or edges from the visualization. Nodes excluded this way can be expanded again using the features described above.</span></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4><a name="editing" class="md-header-anchor"></a><span>Editing</span></h4><blockquote><p>⚠️<span> </span><strong><span>Editing changes the underlying network!</span></strong><span> All features described below alter the underlying network. Changes done this way can not be undone without reloading the network. These features are intended for permanent editing of a network.</span></p></blockquote><p>&nbsp;</p><p><span>The four red bordered buttons on the right hand side of the network graph can be used to edit the network. Most of these features require the nodes or elements being selected to be performed.</span></p><p>&nbsp;</p><p><strong><span>Edit element</span></strong></p><p>&nbsp;</p><p><img src="./images/edit_element.png" alt="edit_element" style="zoom:33%;" /></p><p style="text-align: center;"> <i>Dialog for editing an element</i> </p><p>&nbsp;</p><p><span>Select a </span><em><span>single</span></em><span> element (node or edge) first. Clicking the </span><code>EDIT ELEMENT</code><span> button then opens a dialog which allows editing of the selected element. The </span><em><span>element type</span></em><span> cannot be removed and can only be chosen from already existing types. All other properties may be removed using the </span><code>-</code><span> buttons at the right or changed using the value fields. It is also possible to add new properties to the element by using the two fields at the bottom (variable/property: left field; value: right field) and the </span><code>+</code><span> button to the right. Press </span><code>APPLY</code><span> to apply the changes and return to the main window.</span></p><p>&nbsp;</p><p><strong><span>Add element</span></strong></p><p>&nbsp;</p><p><img src="./images/add_edge.png" alt="add_edge" style="zoom:30%;" /></p><p style="text-align: center;"> <i>Adding a new edge</i> </p><h4><a name="" class="md-header-anchor"></a></h4><p><span>When clicking the </span><code>ADD ELEMENT</code><span> button the type of element has to be chosen first. When choosing to add a new node, a windows similar to the one described in the </span><a href='#edit-element'><span>Edit element</span></a><span> section above pops up. When adding a new edge, there are additional fields for selecting the </span><em><span>source node</span></em><span> and the </span><em><span>target node</span></em><span>. These have to be selected from a list of all existing nodes. The dropdowns allow searching for node names as described in the </span><a href='#select-entities'><span>Select Entities</span></a><span> section. Alternatively, select the two nodes between which the new edge shall be added before opening the </span><code>ADD ELEMENT</code><span> dialog.</span></p><p>&nbsp;</p><p><strong><span>Delete elements</span></strong></p><p><span>Pressing </span><code>DELETE ELEMENTS</code><span> deletes every element currently selected. Nodes removed this way can not be re-expanded.</span></p><p>&nbsp;</p><p><strong><span>Merge elements</span></strong></p><blockquote><p>⚠️<span> </span><strong><span>Merging edges not available yet.</span></strong><span> </span></p></blockquote><p><span>To elements select two or more elements of the same kind and press the </span><code>MERGE ELEMENTS</code><span> button. The dialog presented is similar to the one explained in the </span><a href='#edit-element'><span>Edit element</span></a><span> section. When applied, all selected elements are merged to one element with the properties entered in the merge elements dialog. </span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
+</body>
+</html>

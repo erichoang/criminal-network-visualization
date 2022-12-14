@@ -1,0 +1,60 @@
+# Converted from new format. For internal use only.
+{"type": "node", "id": "C01_M", "properties": {"type": "phone_number", "callee_numbers": ["1", "42"], "phone_number": "+420 608 447 63X", "conversations": {"Email": 506, "Audio": 2}, "attend_Las_Vegas_Meeting": false, "name": "AbelDennis", "gender": "male", "territory": "East", "members": "MIX101784", "keywords": ["armor", "explosion", "terrorist", "missile attack", "human bomb"]}}
+{"type": "node", "id": "C04_M", "properties": {"type": "phone_number", "caller_numbers": ["1"], "callee_numbers": ["1"], "phone_number": "+420 727 900 46X", "conversations": {"Audio": 3}, "attend_Las_Vegas_Meeting": true, "name": "AbramsDavid", "gender": "male", "territory": "West", "members": "MIX120799, MIX103014", "keywords": ["scientist", "general", "military", "soldier"]}}
+{"type": "node", "id": "C05_M", "properties": {"type": "phone_number", "caller_numbers": ["73", "38", "27", "66", "1"], "callee_numbers": ["63", "18", "38", "27", "8", "56", "1", "41", "42"], "phone_number": "+421 902 190 46X", "conversations": {"Audio": 2}, "attend_Las_Vegas_Meeting": false, "members": "MIX1154, MIX7704"}}
+{"type": "node", "id": "C07_F", "properties": {"type": "phone_number", "phone_number": "+420 738 616 59X", "name": "AndrewsJoan", "gender": "female"}}
+{"type": "node", "id": "G01_M", "properties": {"type": "phone_number", "phone_number": "+420 650 528 15X"}}
+{"type": "node", "id": "V01_M", "properties": {"type": "phone_number", "phone_number": "+420 770 586 44X"}}
+{"type": "node", "id": "G05_F", "properties": {"type": "phone_number", "phone_number": "+420 680 712 30X"}}
+{"type": "node", "id": "R01_M", "properties": {"type": "phone_number", "phone_number": "+420 702 903 29X"}}
+{"type": "node", "id": "R03_M", "properties": {"type": "phone_number", "phone_number": "+420 727 443 58X"}}
+{"type": "node", "id": "V02_M", "properties": {"type": "phone_number", "phone_number": "+420 602 753 46X"}}
+{"type": "node", "id": "C03_M", "properties": {"type": "phone_number", "phone_number": "+420 606 328 73X"}}
+{"type": "node", "id": "R05_M", "properties": {"type": "phone_number", "phone_number": "+420 778 285 61X"}}
+{"type": "node", "id": "R04_F", "properties": {"type": "phone_number", "phone_number": "+420 725 872 19X"}}
+{"type": "node", "id": "C09_F", "properties": {"type": "phone_number", "phone_number": "+420 737 522 56X"}}
+{"type": "node", "id": "G03_F", "properties": {"type": "phone_number", "phone_number": "+420 670 944 88X"}}
+{"type": "node", "id": "G02_F", "properties": {"type": "phone_number", "phone_number": "+420 660 916 17X"}}
+{"type": "node", "id": "V03_F", "properties": {"type": "phone_number", "phone_number": "+420 730 902 72X"}}
+{"type": "node", "id": "C02_F", "properties": {"type": "phone_number", "phone_number": "+420 739 610 71X"}}
+{"type": "node", "id": "R02_M", "properties": {"type": "phone_number", "phone_number": "+420 602 307 41X"}}
+{"type": "node", "id": "V04_M", "properties": {"type": "phone_number", "phone_number": "+420 776 238 65X"}}
+{"type": "node", "id": "G06_M", "properties": {"type": "phone_number", "phone_number": "+420 660 512 21X"}}
+{"type": "edge", "source": "C01_M", "target": "C04_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.11071130074560642}}
+{"type": "edge", "source": "C01_M", "target": "C05_M", "properties": {"type": "phone_call", "observed": false, "predicted": true, "weight": 1.0, "probability": 0.0212724506855011}}
+{"type": "edge", "source": "C01_M", "target": "C07_F", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.0185401551425457}}
+{"type": "edge", "source": "C01_M", "target": "R01_M", "properties": {"type": "phone_call", "observed": false, "predicted": true, "weight": 6.0, "probability": 0.5589564181864262}}
+{"type": "edge", "source": "C01_M", "target": "C03_M", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.2401161193847656}}
+{"type": "edge", "source": "C01_M", "target": "V01_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.10671792924404144}}
+{"type": "edge", "source": "C01_M", "target": "C02_F", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.10576199740171432}}
+{"type": "edge", "source": "C04_M", "target": "C04_M", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.16904044750013522}}
+{"type": "edge", "source": "C04_M", "target": "C07_F", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.010951053351163864}}
+{"type": "edge", "source": "C04_M", "target": "C01_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.062493778144319855}}
+{"type": "edge", "source": "C07_F", "target": "C01_M", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.17884868968810355}}
+{"type": "edge", "source": "C07_F", "target": "C04_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.01959008350968361}}
+{"type": "edge", "source": "C07_F", "target": "C09_F", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.0801529511809349}}
+{"type": "edge", "source": "C07_F", "target": "C02_F", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.006499980576336385}}
+{"type": "edge", "source": "G01_M", "target": "V01_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.039701201021671295}}
+{"type": "edge", "source": "G01_M", "target": "G05_F", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.014942299574613571}}
+{"type": "edge", "source": "G01_M", "target": "C01_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.023158911790233105}}
+{"type": "edge", "source": "G01_M", "target": "G02_F", "properties": {"type": "phone_call", "observed": true, "weight": 3.0, "probability": 0.32677731631944573}}
+{"type": "edge", "source": "V01_M", "target": "C01_M", "properties": {"type": "phone_call", "observed": true, "weight": 3.0, "probability": 0.32704755663871765}}
+{"type": "edge", "source": "V01_M", "target": "V02_M", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.2132034311071038}}
+{"type": "edge", "source": "V01_M", "target": "V04_M", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.16669932007789612}}
+{"type": "edge", "source": "G05_F", "target": "G01_M", "properties": {"type": "phone_call", "observed": true, "weight": 9.0, "probability": 0.9786402583122252}}
+{"type": "edge", "source": "R01_M", "target": "R03_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.0766588132828474}}
+{"type": "edge", "source": "R01_M", "target": "C01_M", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.20232867803424598}}
+{"type": "edge", "source": "R01_M", "target": "R05_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.024123338982462883}}
+{"type": "edge", "source": "R03_M", "target": "R01_M", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.17594590783119202}}
+{"type": "edge", "source": "V02_M", "target": "V01_M", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.18163391885658106}}
+{"type": "edge", "source": "V02_M", "target": "V03_F", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.1668597310781479}}
+{"type": "edge", "source": "C03_M", "target": "C01_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.0896157119423151}}
+{"type": "edge", "source": "R05_M", "target": "R04_F", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.012659307569265366}}
+{"type": "edge", "source": "R05_M", "target": "R01_M", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.23161472799256444}}
+{"type": "edge", "source": "R04_F", "target": "R05_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.015610659075900913}}
+{"type": "edge", "source": "C09_F", "target": "C07_F", "properties": {"type": "phone_call", "observed": true, "weight": 5.0, "probability": 0.5171855054795743}}
+{"type": "edge", "source": "G03_F", "target": "G01_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.054025923833251}}
+{"type": "edge", "source": "G02_F", "target": "G01_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.04120416904333979}}
+{"type": "edge", "source": "C02_F", "target": "C07_F", "properties": {"type": "phone_call", "observed": true, "weight": 2.0, "probability": 0.18627315759658813}}
+{"type": "edge", "source": "R02_M", "target": "R01_M", "properties": {"type": "phone_call", "observed": true, "weight": 9.0, "probability": 0.9365007877349854}}
+{"type": "edge", "source": "G06_M", "target": "G01_M", "properties": {"type": "phone_call", "observed": true, "weight": 1.0, "probability": 0.05479051545262337}}

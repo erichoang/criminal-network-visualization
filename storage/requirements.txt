@@ -1,0 +1,8 @@
+tqdm==4.36.1
+numpy==1.18.1
+scipy==1.4.1
+matplotlib==3.3.4
+networkx==2.5
+numexpr==2.7.2
+soundfile==0.10.3.post1
+torch==1.7.1

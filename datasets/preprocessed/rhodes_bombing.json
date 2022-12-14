@@ -1,0 +1,154 @@
+#Rhodes Bombing
+#URL: https://sites.google.com/site/ucinetsoftware/datasets/covert-networks/rhodesbombing
+##############################################
+{"type": "node", "id": "Alexandros_Giotopoulos", "properties": {"type": "person", "name": "Alexandros Giotopoulos", "role": "operational", "faction": "1st Generation Leadership Faction", "num_resources": 1}}
+{"type": "node", "id": "Anna", "properties": {"type": "person", "name": "Anna", "role": "operational", "faction": "1st Generation Leadership Faction", "num_resources": 0}}
+{"type": "node", "id": "Christodoulos_Xiros", "properties": {"type": "person", "name": "Christodoulos Xiros", "role": "operational", "faction": "Koufontinas Faction", "num_resources": 2}}
+{"type": "node", "id": "Constantinos_Karatsolis", "properties": {"type": "person", "name": "Constantinos Karatsolis", "role": "leader", "faction": "Sardanopoulos Faction", "num_resources": 2}}
+{"type": "node", "id": "Constantinos_Telios", "properties": {"type": "person", "name": "Constantinos Telios"}}
+{"type": "node", "id": "Dimitris_Koufontinas", "properties": {"type": "person", "name": "Dimitris Koufontinas", "role": "operational", "faction": "Koufontinas Faction", "num_resources": 3}}
+{"type": "node", "id": "Dionysis_Georgiadis", "properties": {"type": "person", "name": "Dionysis Georgiadis"}}
+{"type": "node", "id": "Elias_Gaglias", "properties": {"type": "person", "name": "Elias Gaglias"}}
+{"type": "node", "id": "Fotis", "properties": {"type": "person", "name": "Fotis", "role": "leader", "faction": "Sardanopoulos Faction", "num_resources": 2}}
+{"type": "node", "id": "Iraklis_Kostaris", "properties": {"type": "person", "name": "Iraklis Kostaris", "role": "operational", "faction": "1st Generation Leadership Faction", "num_resources": 0}}
+{"type": "node", "id": "Nikitas", "properties": {"type": "person", "name": "Nikitas", "role": "leader", "num_resources": 2}}
+{"type": "node", "id": "Ojurk_Hanuz", "properties": {"type": "person", "name": "Ojurk Hanuz", "role": "leader", "faction": "Sardanopoulos Faction", "num_resources": 2}}
+{"type": "node", "id": "Patroclos_Tselentis", "properties": {"type": "person", "name": "Patroclos Tselentis", "role": "operational", "faction": "Sardanopoulos Faction", "num_resources": 0}}
+{"type": "node", "id": "Pavlos_Serifis", "properties": {"type": "person", "name": "Pavlos Serifis", "role": "operational", "faction": "Sardanopoulos Faction", "num_resources": 1}}
+{"type": "node", "id": "Sardanopoulos", "properties": {"type": "person", "name": "Sardanopoulos", "role": "leader", "faction": "Koufontinas Faction", "num_resources": 2}}
+{"type": "node", "id": "Savas_Xiros", "properties": {"type": "person", "name": "Savas Xiros", "role": "operational", "faction": "1st Generation Leadership Faction", "num_resources": 0}}
+{"type": "node", "id": "Sotirios_Kondylis", "properties": {"type": "person", "name": "Sotirios Kondylis"}}
+{"type": "node", "id": "Thomas_Serifis", "properties": {"type": "person", "name": "Thomas Serifis", "role": "leader", "num_resources": 2}}
+{"type": "node", "id": "Vassilis_Tzortzatos", "properties": {"type": "person", "name": "Vassilis Tzortzatos"}}
+{"type": "node", "id": "Vassilis_Xiros", "properties": {"type": "person", "name": "Vassilis Xiros", "role": "leader", "faction": "Koufontinas Faction", "num_resources": 2}}
+{"type": "node", "id": "Yiannis", "properties": {"type": "person", "name": "Yiannis", "role": "leader", "num_resources": 2}}
+{"type": "node", "id": "Yiannis_Skandalis", "properties": {"type": "person", "name": "Yiannis Skandalis", "role": "leader", "num_resources": 2}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Anna", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Constantinos_Telios", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Fotis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Nikitas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Sardanopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Alexandros_Giotopoulos", "target": "Yiannis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Anna", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Anna", "target": "Fotis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Anna", "target": "Nikitas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Anna", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Anna", "target": "Sardanopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Anna", "target": "Yiannis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Iraklis_Kostaris", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Ojurk_Hanuz", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Patroclos_Tselentis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Thomas_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Vassilis_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Yiannis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Christodoulos_Xiros", "target": "Yiannis_Skandalis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Constantinos_Karatsolis", "target": "Iraklis_Kostaris", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Constantinos_Karatsolis", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Constantinos_Karatsolis", "target": "Thomas_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Constantinos_Telios", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Constantinos_Telios", "target": "Elias_Gaglias", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Constantinos_Telios", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Iraklis_Kostaris", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Ojurk_Hanuz", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Patroclos_Tselentis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Sardanopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Vassilis_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dimitris_Koufontinas", "target": "Yiannis_Skandalis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Dionysis_Georgiadis", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Elias_Gaglias", "target": "Constantinos_Telios", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Fotis", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Fotis", "target": "Anna", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Fotis", "target": "Nikitas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Fotis", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Fotis", "target": "Sardanopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Fotis", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Iraklis_Kostaris", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Iraklis_Kostaris", "target": "Constantinos_Karatsolis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Iraklis_Kostaris", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Iraklis_Kostaris", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Iraklis_Kostaris", "target": "Thomas_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Iraklis_Kostaris", "target": "Vassilis_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Nikitas", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Nikitas", "target": "Anna", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Nikitas", "target": "Fotis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Nikitas", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Nikitas", "target": "Sardanopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Nikitas", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Ojurk_Hanuz", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Ojurk_Hanuz", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Ojurk_Hanuz", "target": "Patroclos_Tselentis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Ojurk_Hanuz", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Ojurk_Hanuz", "target": "Yiannis_Skandalis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Patroclos_Tselentis", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Patroclos_Tselentis", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Patroclos_Tselentis", "target": "Ojurk_Hanuz", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Patroclos_Tselentis", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Patroclos_Tselentis", "target": "Thomas_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Patroclos_Tselentis", "target": "Yiannis_Skandalis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Anna", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Constantinos_Karatsolis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Fotis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Iraklis_Kostaris", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Nikitas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Ojurk_Hanuz", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Patroclos_Tselentis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Sardanopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Thomas_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Yiannis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Pavlos_Serifis", "target": "Yiannis_Skandalis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Sardanopoulos", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Sardanopoulos", "target": "Anna", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Sardanopoulos", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Sardanopoulos", "target": "Iraklis_Kostaris", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Sardanopoulos", "target": "Nikitas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Sardanopoulos", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Constantinos_Telios", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Dionysis_Georgiadis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Fotis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Nikitas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Sotirios_Kondylis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Vassilis_Tzortzatos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Vassilis_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Savas_Xiros", "target": "Yiannis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Sotirios_Kondylis", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Thomas_Serifis", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Thomas_Serifis", "target": "Constantinos_Karatsolis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Thomas_Serifis", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Thomas_Serifis", "target": "Iraklis_Kostaris", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Thomas_Serifis", "target": "Patroclos_Tselentis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Thomas_Serifis", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Thomas_Serifis", "target": "Yiannis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Vassilis_Tzortzatos", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Vassilis_Xiros", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Vassilis_Xiros", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Vassilis_Xiros", "target": "Iraklis_Kostaris", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Vassilis_Xiros", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis", "target": "Alexandros_Giotopoulos", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis", "target": "Anna", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis", "target": "Savas_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis", "target": "Thomas_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis_Skandalis", "target": "Christodoulos_Xiros", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis_Skandalis", "target": "Dimitris_Koufontinas", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis_Skandalis", "target": "Ojurk_Hanuz", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis_Skandalis", "target": "Patroclos_Tselentis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
+{"type": "edge", "source": "Yiannis_Skandalis", "target": "Pavlos_Serifis", "properties": {"type": "past_connection", "observed": true, "weight": 1}}
