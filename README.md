@@ -1,6 +1,6 @@
 # criminal-network-visualization
 
-L3S Research Center's visualization for criminal network analysis.
+A visualization tool for criminal network analysis.
 
 - analyzer: criminal (social) network analysis functionalities
 - datasets: (toy) datasets for developing/testing the system
