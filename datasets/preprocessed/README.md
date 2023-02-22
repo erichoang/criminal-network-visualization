@@ -10,7 +10,7 @@ There are two Networkx JSON networks built from the dataset:
 - Offender Network: ``israel_lea_inp_burglary_offender_id_network.json``
 - Crime Network: ``israel_lea_inp_burglary_v2_crime_id_network.json``
 
-** Note: the other files with the same above prefix and timestamps are the subgraphs sliced from the two core networks. The generated networks are compatible with the Networkx library.
+>**_Note_**: the other files with the same above prefix and timestamps are the subgraphs sliced from the two core networks. The generated networks are compatible with the Networkx library.
 
 ## Other Datasets
 
