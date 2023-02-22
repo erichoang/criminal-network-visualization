@@ -3,7 +3,7 @@
 A visualization tool for criminal network analysis.
 
 - analyzer: criminal (social) network analysis functionalities
-- datasets: criminal datasets for developing/testing the system
+- [datasets](datasets/preprocessed/README.md): criminal datasets for developing/testing the system
 - conductor: providing API services
 - framework: the system's infrastructure/framework and communication among its components
 - storage: data handling graph storage 
