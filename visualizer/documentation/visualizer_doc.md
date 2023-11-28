@@ -23,7 +23,7 @@
 Start the server by executing the `index.py` with Python 3:  
 
 ````bash
-$ python index.py
+$ python visualizer/index.py
 ````
 
 
