@@ -1,5 +1,11 @@
 # Criminal Network Analysis and Visualization
 
+[![python](https://img.shields.io/badge/python-3.7.12-blue)](https://www.python.org/)
+[![dgl](https://img.shields.io/badge/networkx-2.4-orange)](https://networkx.org/)
+[![MIT-license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+[![Criminal Network Analysis](./visualizer/documentation/images/network_analysis.png)](https://github.com/erichoang/criminal-network-visualization)
+
 A visualization tool for criminal network analysis.
 
 - analyzer: criminal (social) network analysis functionalities, including community detection, social influence analysis, node embedding generation, and (transductive) link prediction.
