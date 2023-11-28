@@ -54,9 +54,9 @@ The server now listens locally on port 8050. Click the link provided by the comm
 
 **Explore the network**
 
-The network should be displayed now. Entities ( = nodes) are represented by circles with edges representing the links between them. Entities can be repositioned by clicking and dragging. When hovering over entities or edges their information is displayed on the right side. Entities with a plus sign on top are expandable - means they have outgoing links not yet displayed.
+The network should be displayed now. Entities ( = nodes) are represented by circles with edges representing the links between them. Entities can be repositioned by clicking and dragging. When hovering over entities or edges, their information is displayed on the right side. Entities with a plus sign on top are expandable - which means they have outgoing links not yet displayed.
 
-To expand an expandable entity click it first. A red border around an entity means it is selected. You can select multiple entities at once. Now, click the `EXPAND NODE(S)` button on the bottom right to expand the selected nodes. 
+To expand an expandable entity, click it first. A red border around an entity means it is selected. You can select multiple entities at once. Now, click the `EXPAND NODE(S)` button on the bottom right to expand the selected nodes. 
 
 
 
@@ -66,7 +66,7 @@ To expand an expandable entity click it first. A red border around an entity mea
 
 **Apply Network Analysis**
 
-To apply any network analysis, switch to the `ANALYSIS` tab on the top right. In the uppermost dropdown select the analysis function to apply. In the one below, choose an algorithm according to your preferences. For some of the algorithms, parameters can also be selected. Community detection and social influence analysis are applied to the whole network while link prediction is applied to the currently selected nodes. Click `ANALYZE` when the analysis function and algorithm are  selected. 
+To apply any network analysis, switch to the `ANALYSIS` tab on the top right. In the uppermost dropdown, select the analysis function to apply. In the one below, choose an algorithm according to your preferences. For some of the algorithms, parameters can also be selected. Community detection and social influence analysis are applied to the whole network while link prediction is applied to the currently selected nodes. Click `ANALYZE` when the analysis function and algorithm are  selected. 
 
 <img src="./images/network_analysis.png" alt="network_analysis" style="zoom:40%;" />
 
@@ -76,7 +76,7 @@ To apply any network analysis, switch to the `ANALYSIS` tab on the top right. In
 
 **Export Results**
 
-To export the network go back to the `NETWORK` tab. Click `EXPORT IMAGE` and choose an image format in the presented dialog. Press `DOWNLOAD` to download the image to your local disk. *For export of the current network or saving of the current state see full documentation under [Export and Save the Network](#export-and-save-network).*
+To export the network, go back to the `NETWORK` tab. Click `EXPORT IMAGE` and choose an image format in the presented dialog. Press `DOWNLOAD` to download the image to your local disk. *For export of the current network or saving of the current state, see full documentation under [Export and Save the Network](#export-and-save-network).*
 
 
 
@@ -124,7 +124,7 @@ python index.py [-h] [--data DATA] [--debug] [--host HOST]
 
 
 
-> :warning: **Regarding the L3S network format**: The format is used by the whole L3S social network analysis system and not exclusive to the visualizer. For documentation of the format look for the general L3S social network analysis systems documentation.
+> :warning: **Regarding the L3S network format**: The format is used by the whole L3S social network analysis system and is not exclusive to the visualizer. For documentation of the format look for the general L3S social network analysis systems documentation.
 
 
 
