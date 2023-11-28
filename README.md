@@ -30,7 +30,8 @@ This repository is a part of the paper "Inductive and Transductive Link Predicti
 ```
 
 # Analysis and Visualization
-## Requirements
+## Installation
+### Requirements
 - Linux
 - Anaconda
 
