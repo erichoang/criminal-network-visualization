@@ -6,6 +6,7 @@
 
 [![Criminal Network Analysis](./visualizer/documentation/images/network_analysis.png)](https://github.com/erichoang/criminal-network-visualization)
 
+## Overview
 A visualization tool for criminal network analysis.
 
 - analyzer: criminal (social) network analysis functionalities, including community detection, social influence analysis, node embedding generation, and (transductive) link prediction.
