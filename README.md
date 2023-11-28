@@ -1,7 +1,7 @@
 # Criminal Network Analysis and Visualization
 
 [![python](https://img.shields.io/badge/python-3.7.12-blue)](https://www.python.org/)
-[![dgl](https://img.shields.io/badge/networkx-2.4-orange)](https://networkx.org/)
+[![NetworkX](https://img.shields.io/badge/networkx-2.4-orange)](https://networkx.org/)
 [![ROXANNE-license](https://img.shields.io/badge/License-ROXANNE-blue.svg)](https://www.roxanne-euproject.org/)
 
 [![Criminal Network Analysis](./visualizer/documentation/images/network_analysis.png)](https://github.com/erichoang/criminal-network-visualization)
