@@ -405,26 +405,26 @@ if __name__ == "__main__":
     print(nx.info(undirected_graph))
 
     # graph_by_date_file_path = 'datasets/preprocessed/israel_lea_inp_burglary_offender_id_network_from_2010-01-01_to_2019-12-31.json'
-    graph_by_date_file_path = 'datasets/preprocessed/israel_lea_inp_burglary_offender_id_network_from_2010-01-01_to_2018-12-31.json'
-    graph_by_date = load_graph_from_json_file(graph_by_date_file_path)
-    undirected_graph_by_date = graph_by_date.to_undirected()
-    print(nx.info(undirected_graph_by_date))
+    # graph_by_date_file_path = 'datasets/preprocessed/israel_lea_inp_burglary_offender_id_network_from_2010-01-01_to_2018-12-31.json'
+    # graph_by_date = load_graph_from_json_file(graph_by_date_file_path)
+    # undirected_graph_by_date = graph_by_date.to_undirected()
+    # print(nx.info(undirected_graph_by_date))
 
 
     # # nx.write_gpickle(G, 'datasets/nx_graphs/locard_dataset_viewers_broadcasters_network.gpickle')
     # G = nx.read_gpickle('datasets/nx_graphs/locard_dataset_viewers_broadcasters_network.gpickle')
 
-    print(nx.info(graph))
-    print(nx.info(undirected_graph))
-    scores_centrality_file_path = 'analysis_results/burglary_dateset_analysis/' + graph_file_path.split('.')[0].split('/')[2] + \
-                       '_undirected_betweenness_centrality_scores' + '.pickle'
-    dump_centrality_scores(undirected_graph, scores_centrality_file_path)
+    # print(nx.info(graph))
+    # print(nx.info(undirected_graph))
+    # scores_centrality_file_path = 'analysis_results/burglary_dateset_analysis/' + graph_file_path.split('.')[0].split('/')[2] + \
+    #                    '_undirected_betweenness_centrality_scores' + '.pickle'
+    # dump_centrality_scores(undirected_graph, scores_centrality_file_path)
 
-    scores = nx.betweenness_centrality(G, weight='weight')
-    with open('analysis_results/burglary_dateset_analysis/betweenness_centrality_scores_israel_lea_inp_burglary_offender_id_network.pickle', 'wb') as fp:
-        pickle.dump(scores, fp)
+    # scores = nx.betweenness_centrality(G, weight='weight')
+    # with open('analysis_results/burglary_dateset_analysis/betweenness_centrality_scores_israel_lea_inp_burglary_offender_id_network.pickle', 'wb') as fp:
+    #     pickle.dump(scores, fp)
 
-    scores_centrality = pickle.load(open(scores_centrality_file_path, 'rb'))
+    # scores_centrality = pickle.load(open(scores_centrality_file_path, 'rb'))
 
     # run_experiment_top_k_central_node(graph_file_path, undirected_graph, scores_centrality)
     run_experiment_on_removing_random_edges(graph_file_path, undirected_graph, percent_removed_edges=0.01)
